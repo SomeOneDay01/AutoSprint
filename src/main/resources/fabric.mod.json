@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "autosprint",
+	"version": "${version}",
+	"name": "AutoSprint",
+	"description": "Toggle automatic sprint on land and in water.",
+	"authors": [
+		"SomeOneDay"
+	],
+	"license": "MIT",
+	"icon": "assets/autosprint/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.someoneday.autosprint.AutoSprintMod"
+		],
+		"client": [
+			"com.someoneday.autosprint.AutoSprintClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
