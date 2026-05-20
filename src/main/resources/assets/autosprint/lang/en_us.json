@@ -1,6 +1,6 @@
 {
 	"key.autosprint.toggle": "Toggle Auto Sprint",
-	"key.category.autosprint.autosprint": "AutoSprint",
+	"category.autosprint": "AutoSprint",
 	"message.autosprint.enabled": "Auto Sprint: ON",
 	"message.autosprint.disabled": "Auto Sprint: OFF"
 }

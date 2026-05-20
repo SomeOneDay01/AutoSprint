@@ -45,7 +45,7 @@ public final class AutoSprintManager {
 			return true;
 		}
 
-		return player.input.hasForwardImpulse();
+		return player.input.forwardImpulse > 0.0F;
 	}
 
 	private static boolean canSprint(LocalPlayer player) {
